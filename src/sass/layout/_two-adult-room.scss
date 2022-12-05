@@ -1,0 +1,157 @@
+
+.two-adult-room {
+            padding-top: 32px;
+            padding-bottom: 32px;
+
+&__content {
+    display: block;
+
+@media screen and (max-width: 1023px) {
+    margin-bottom: 32px;
+}
+
+@media screen and (min-width: 1024px) {
+    display: flex;
+    height: 426px;
+    gap: 45px;
+    margin-left: 32px;
+    margin-bottom: 48px;
+    
+}
+
+@media screen and (min-width: 1280px) {
+    margin-left: 85px;
+    
+}
+}
+
+            &__wrapper-text {
+                @media screen and (max-width: 1023px) {
+                    margin-right: 128px;
+                    
+                }
+            }
+
+            &__subtitle {
+                font-family: var(--font-subhead);
+                color: var(--color-beige4);
+                margin-bottom: 8px;
+                font-size: 20px;
+                line-height: 1.16;
+
+                @media screen and (min-width: 1024px) {
+                    margin-bottom: 4px;
+                    font-size: 32px;                    
+                }
+            }
+
+            &__name {
+                font-family: var(--font-logo);
+                text-transform: uppercase;
+                letter-spacing: .3em;
+                color: var(--color-dark);
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 1.1;
+                margin-bottom: 32px;
+
+                @media screen and (min-width: 1024px) {
+                margin-bottom: 62px;
+                font-size: 64px;
+                    } 
+
+                @media screen and (min-width: 1280px) {
+                margin-bottom: 72px;
+            }
+                }
+
+            &__title {
+                font-family: var(--font-subhead);
+                text-transform: uppercase;
+                letter-spacing: .05em;
+                color: var(--color-black);
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1.14;
+                margin-bottom: 12px;
+
+            @media screen and (min-width: 1024px) {
+                    margin-bottom: 16px;
+                    font-size: 30px;
+                }
+
+            @media screen and (min-width: 1280px) {
+                margin-bottom: 24px;
+                font-size: 36px;
+            }
+            }
+
+            &__description {
+                letter-spacing: .02em;
+                color: var(--color-beige2);
+                max-width: 400px;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 1.25;
+
+            @media screen and (max-width: 1023px) {
+                max-width: 242px;
+                margin-bottom: 32px;
+                font-size: 12px;
+                font-weight: 600;
+            }
+
+            }
+            
+            &__picture {
+                margin-left: 140px;
+                box-shadow: 2px 2px 60px 2px #00000040;
+
+        @media screen and (min-width: 1024px) {
+                margin-left: 26px;
+                transform: translateY(-64px);
+                box-shadow: 5px 5px 70px 17px #00000040;
+        
+                }
+
+        @media screen and (min-width: 1280px) {
+            transform: translateY(-64px);
+            border-radius: 2px;
+        }
+            }
+
+            &__wrapper {
+
+    @media screen and (min-width: 1024px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        }
+            }
+
+            &__swiper {
+                display: flex;
+                flex-wrap: nowrap;
+                gap: 16px;
+                margin-left: -135px;
+
+    @media screen and (min-width: 1024px) {
+                margin-left: 47px;
+                gap: 40px;
+    }
+
+    @media screen and (min-width: 1024px) {
+        margin-left: 85px;
+        gap: 40px;
+    }
+            }
+        }
+
+.two-adult-room {
+
+}
+
+.two-adult-room__btn--leftswiper-button-prev {
+        fill: black;
+    }
